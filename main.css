@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+/* Add this CSS to your existing styles or in a separate style block in the head */
+
+/* Style for the close button */
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#hueSlider {
+    width: 200px;
+    margin: 10px auto;
+}
+
+/*# sourceMappingURL=main.css.map*/
